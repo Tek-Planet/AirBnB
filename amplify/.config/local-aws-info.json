@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/home/tekplanet/.amplify/awscloudformation/AW1edE40oI"
+  },
+  "tekplanet": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/home/tekplanet/.amplify/awscloudformation/rnQ2vCl8K1"
+  }
+}

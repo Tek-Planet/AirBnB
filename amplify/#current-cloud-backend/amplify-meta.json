@@ -1,0 +1,83 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-airbnbclone-tekplanet-135042-authRole",
+      "UnauthRoleArn": "arn:aws:iam::551771756570:role/amplify-airbnbclone-tekplanet-135042-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::551771756570:role/amplify-airbnbclone-tekplanet-135042-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-airbnbclone-tekplanet-135042-deployment",
+      "UnauthRoleName": "amplify-airbnbclone-tekplanet-135042-unauthRole",
+      "StackName": "amplify-airbnbclone-tekplanet-135042",
+      "StackId": "arn:aws:cloudformation:us-east-1:551771756570:stack/amplify-airbnbclone-tekplanet-135042/313a8450-4d25-11ec-88f8-1207824b08bd",
+      "AmplifyAppId": "d3ivue9gbwq5mp"
+    }
+  },
+  "auth": {
+    "airbnbclone23863bfd": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-airbnbclone-tekplanet-135042-deployment/amplify-cfn-templates/auth/airbnbclone23863bfd-cloudformation-template.yml",
+        "logicalId": "authairbnbclone23863bfd"
+      },
+      "lastPushTimeStamp": "2021-11-24T13:17:36.801Z",
+      "output": {
+        "AppClientSecret": "bkekjifk3viblbv8o6hsgbh3bs7hnpnbihrdk92pjaaseqe032e",
+        "UserPoolId": "us-east-1_8KvS3UQOc",
+        "AppClientIDWeb": "34gdij7emih7grqr0avkpl9llh",
+        "AppClientID": "9ia1rt0bl7nr18o9hm5fbc2p3",
+        "IdentityPoolId": "us-east-1:a9fd97c6-963f-46e9-a4fe-2744598ce8fa",
+        "IdentityPoolName": "airbnbclone23863bfd_identitypool_23863bfd__tekplanet",
+        "UserPoolName": "airbnbclone23863bfd_userpool_23863bfd"
+      },
+      "lastPushDirHash": "YtNfwESMHmC4NByX4tO6dY9eTJI="
+    }
+  },
+  "api": {
+    "airbnbclone": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 365,
+              "description": ""
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "e4cx2cchc5hnvg2frbbyknvtbm",
+        "GraphQLAPIEndpointOutput": "https://67cg3jvtzfglji6y3edudhesvi.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-tcodzysh7feudpnqt5jckdgaaa"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-airbnbclone-tekplanet-135042-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiairbnbclone"
+      },
+      "lastPushTimeStamp": "2021-11-24T13:17:36.801Z",
+      "lastPushDirHash": "a2mTvH3xoNbSzqqCCklJZ25EGYI="
+    }
+  }
+}

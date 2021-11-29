@@ -1,0 +1,4 @@
+#Mon Nov 29 15:42:14 WAT 2021
+base.0=/home/tekplanet/Documents/Project/React native/Clones/AirbnbClone/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
