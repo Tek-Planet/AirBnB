@@ -9,6 +9,7 @@ export const getPost = /* GraphQL */ `
       type
       title
       description
+      createdAt
       bed
       bedroom
       maxGuests
@@ -16,7 +17,6 @@ export const getPost = /* GraphQL */ `
       newPrice
       latitude
       longitude
-      createdAt
       updatedAt
     }
   }
@@ -34,6 +34,7 @@ export const listPosts = /* GraphQL */ `
         type
         title
         description
+        createdAt
         bed
         bedroom
         maxGuests
@@ -41,7 +42,6 @@ export const listPosts = /* GraphQL */ `
         newPrice
         latitude
         longitude
-        createdAt
         updatedAt
       }
       nextToken

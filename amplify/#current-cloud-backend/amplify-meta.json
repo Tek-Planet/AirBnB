@@ -40,7 +40,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-airbnbclone-tekplanet-135042-deployment/amplify-cfn-templates/auth/airbnbclone23863bfd-cloudformation-template.yml",
         "logicalId": "authairbnbclone23863bfd"
       },
-      "lastPushTimeStamp": "2021-11-24T13:17:36.801Z",
+      "lastPushTimeStamp": "2021-12-01T11:18:07.719Z",
       "output": {
         "AppClientSecret": "bkekjifk3viblbv8o6hsgbh3bs7hnpnbihrdk92pjaaseqe032e",
         "UserPoolId": "us-east-1_8KvS3UQOc",
@@ -63,6 +63,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 365,
+              "apiKeyExpirationDate": "2022-12-01T11:12:21.055Z",
               "description": ""
             }
           },
@@ -76,8 +77,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-airbnbclone-tekplanet-135042-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiairbnbclone"
       },
-      "lastPushTimeStamp": "2021-11-24T13:17:36.801Z",
-      "lastPushDirHash": "a2mTvH3xoNbSzqqCCklJZ25EGYI="
+      "lastPushTimeStamp": "2021-12-01T11:18:15.397Z",
+      "lastPushDirHash": "O6hIYpMtzy4qXSqPGHo4IQYKBYg="
     }
   }
 }

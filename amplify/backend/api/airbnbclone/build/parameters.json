@@ -4,5 +4,5 @@
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": false,
     "S3DeploymentBucket": "amplify-airbnbclone-tekplanet-135042-deployment",
-    "S3DeploymentRootKey": "amplify-appsync-files/3b7c405c98342e30b49933ea7653ba4425875b7a"
+    "S3DeploymentRootKey": "amplify-appsync-files/48a341a892a196b7078398e8fafbb4ac5c9da79f"
 }

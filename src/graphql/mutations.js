@@ -12,6 +12,7 @@ export const createPost = /* GraphQL */ `
       type
       title
       description
+      createdAt
       bed
       bedroom
       maxGuests
@@ -19,7 +20,6 @@ export const createPost = /* GraphQL */ `
       newPrice
       latitude
       longitude
-      createdAt
       updatedAt
     }
   }
@@ -35,6 +35,7 @@ export const updatePost = /* GraphQL */ `
       type
       title
       description
+      createdAt
       bed
       bedroom
       maxGuests
@@ -42,7 +43,6 @@ export const updatePost = /* GraphQL */ `
       newPrice
       latitude
       longitude
-      createdAt
       updatedAt
     }
   }
@@ -58,6 +58,7 @@ export const deletePost = /* GraphQL */ `
       type
       title
       description
+      createdAt
       bed
       bedroom
       maxGuests
@@ -65,7 +66,6 @@ export const deletePost = /* GraphQL */ `
       newPrice
       latitude
       longitude
-      createdAt
       updatedAt
     }
   }

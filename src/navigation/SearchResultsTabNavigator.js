@@ -15,6 +15,7 @@ const SearchResultsTabNavigator = (props) => {
   const route = useRoute();
   const { guests, viewport }  = route.params;
 
+  // console.log(guests)
   useEffect(() => {
     const fetchPosts = async () => {
       try {

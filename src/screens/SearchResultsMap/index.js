@@ -10,7 +10,7 @@ import { listPosts } from '../../graphql/queries';
 const SearchResultsMaps = (props) => {
 
   const { posts } = props;
-
+  // const [posts, setPosts] = useState ([])
   const [selectedPlaceId, setSelectedPlaceId] = useState(null);
 
   const flatlist = useRef();
@@ -25,6 +25,20 @@ const SearchResultsMaps = (props) => {
   })
 
   const width = useWindowDimensions().width;
+
+  // useEffect (()=>{
+  //   const fetchPosts = async () => {
+  //     try {
+  //       const postResult = await API.graphql(
+  //         graphqlOperation(listPosts)
+  //       )
+  //       setPosts(postResult.data.listPosts.items)
+  //     } catch (error) {
+        
+  //     }
+  //   }
+  //   fetchPosts()
+  // }, [])
 
   useEffect(() => {
     if (!selectedPlaceId || !flatlist) {

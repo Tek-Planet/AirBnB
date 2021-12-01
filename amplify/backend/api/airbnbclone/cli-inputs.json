@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2022-12-01T11:12:21.055Z",
+      "keyDescription": ""
+    },
+    "conflictResolution": {},
+    "apiName": "airbnbclone",
+    "gqlSchemaPath": "/home/tekplanet/Documents/Project/React native/Clones/AirbnbClone/amplify/backend/api/airbnbclone/schema.graphql",
+    "additionalAuthTypes": []
+  }
+}
